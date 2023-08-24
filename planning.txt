@@ -1,0 +1,14 @@
+# Planejamento
+
+Sign in e Sign up de master
+
+O usuario do tipo master podera ter senhas salvas, as senhas serao conjuntos de chave e valor e poderao ser senhas geradas
+pelo sistema do gpm ou senhas salvas pelo proprio usuario master.
+
+A senha do usuario master devera ter uma data de expiracao de 3 meses. Nao devera ser possivel recuperar a senha do usuario
+master.
+
+A api devera dar opcoes para o usuario master  listar as senhas cadastradas por ele (keys) e de recuperar uma dessas keys.
+Tambem deve ser possivel salvar conjunto key value, ou gerar um value aleaorio para associar a uma key passada.
+
+As senhas deverao ser armazenadas de forma criptografada em banco de dados.
